@@ -42,7 +42,7 @@ namespace PollAPICorrect.Controllers
 
             return user;
         }
-
+        //zoekt of het ingegeven email in de databank gelinkt kan worden aan een bestaand account, zoniet zal er niets gebeuren, zowel dan zal er een vriendscahps verzoek verzonden worden
         [HttpGet("getUserByEmail/{email}")]
         public async Task<ActionResult<User>> GetUserByEmail(string email)
         {
