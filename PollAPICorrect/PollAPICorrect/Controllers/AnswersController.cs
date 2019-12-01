@@ -40,7 +40,7 @@ namespace PollAPICorrect.Controllers
 
             return answer;
         }
-
+        //telt het aantal stemmen per antwoord van een poll
         // GET: api/Answers/5
         [HttpGet("countVotes/{answerID}")]
         public async Task<ActionResult<IEnumerable<Vote>>> CountAnswers(int answerID)
