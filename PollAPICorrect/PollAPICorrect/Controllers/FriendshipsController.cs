@@ -48,13 +48,14 @@ namespace PollAPICorrect.Controllers
             //return alle vriendschappen incl. de andere betrokken user waar de userId van in friendships overeenkomt met de opgegeven UserID en waar Status gelijk is aan 1 (1 staat gelijk aan vriendschapsverzoek geaccepteerd)
             return await _context.Friendships.Where(i => i.UserReceiveID == userID).Include(u => u.User).Where(s => s.Status == 1).ToListAsync();
         }
+        //haalt de vrienden op wanneer jij een verzoek verstuurd hebt
         [HttpGet("getSentFriends/{userID}")]
         public async Task<ActionResult<IEnumerable<Friendship>>> GetSentFriends(int userID)
         {
             //return alle vriendschappen incl. de andere betrokken user waar de userId van in friendships overeenkomt met de opgegeven UserID en waar Status gelijk is aan 1 (1 staat gelijk aan vriendschapsverzoek geaccepteerd)
             return await _context.Friendships.Where(i => i.UserID == userID).Include(u => u.User).Where(s => s.Status == 1).ToListAsync();
         }
-
+        //haalt de ontvangen friendrequests op
         [HttpGet("receivedRequest/{userID}")]
         public async Task<ActionResult<IEnumerable<Friendship>>> GetFriendRequest(int userID)
         {
