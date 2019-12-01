@@ -40,6 +40,7 @@ namespace PollAPICorrect.Controllers
 
             return vote;
         }
+        //telt het aantal votes per antwoord van een poll aan de hand van het answerID
         [HttpGet("countVotes/{answerID}")]
         public async Task<ActionResult<IEnumerable<Vote>>> countVotes(int answerID)
         {
@@ -90,6 +91,7 @@ namespace PollAPICorrect.Controllers
 
             return CreatedAtAction("GetVote", new { id = vote.VoteID }, vote);
         }
+        //voegt een vote toe aan de hadn van het antwoordID & het UserID
         [HttpPost ("addVote/{answerID}/{userID}")]
         public async Task<ActionResult<Vote>> addVote(int answerID, int userID)
         {
