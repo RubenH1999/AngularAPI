@@ -1,0 +1,16 @@
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\PollAPICorrect.deps.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\PollAPICorrect.runtimeconfig.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\PollAPICorrect.runtimeconfig.dev.json
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\PollAPICorrect.dll
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.csprojAssemblyReference.cache
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.RazorAssemblyInfo.cache
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.RazorAssemblyInfo.cs
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.AssemblyInfoInputs.cache
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.AssemblyInfo.cs
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.RazorTargetAssemblyInfo.cache
+E:\Angular\PollAPICorrect\PollAPICorrect\bin\Debug\netcoreapp2.2\PollAPICorrect.pdb
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.dll
+E:\Angular\PollAPICorrect\PollAPICorrect\obj\Debug\netcoreapp2.2\PollAPICorrect.pdb
